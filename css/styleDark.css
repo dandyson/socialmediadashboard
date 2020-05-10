@@ -127,9 +127,9 @@ hr.solid {
     #instaCardCover {
         transition: all 0.2s ease-in-out;
         margin-top: 4px;
-        border-radius: 2.5px;
+        border-radius: 5px;
         width: 100%;
-        height: 197px;
+        height: 200px;
         background-color: #252B43;
     }
 
