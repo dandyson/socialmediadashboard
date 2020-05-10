@@ -1,3 +1,54 @@
+/**** LIGHT THEME COLOURS****/
+
+p {
+    color: hsl(228, 12%, 44%);
+}
+
+nav p {
+    color: hsl(228, 12%, 44%);
+}
+
+#toggleBall {
+    background-color: white;
+}
+
+.cardsLarge {
+    background-color: hsl(227, 47%, 96%);
+}
+
+
+#instaCardCover {
+    background-color: hsl(227, 47%, 96%);
+}
+
+.updateDiv p {
+    color: hsl(163, 72%, 41%);
+}
+
+#overviewTitle {
+    color: hsl(228, 12%, 44%);
+}
+
+.overviewCards {
+    background-color: hsl(227, 47%, 96%);
+}
+
+
+.positiveText {
+    color: hsl(163, 72%, 41%);
+}
+
+.negativeText {
+    color: hsl(356, 69%, 56%);
+}
+
+p.negativetext {
+    color: hsl(356, 69%, 56%)
+}
+
+
+
+
 /* GENERAL */
 
 body {
@@ -11,12 +62,17 @@ body {
 }
 
 p {
-    color: hsl(228, 12%, 44%);
     font-weight: 700;
 }
 
+h1 {
+    color: #fff;
+}
+
 h2 {
-    font-size: 2em;
+    margin: 0;
+    font-size: 3.5em;
+    color: black;
 }
 
 /* NAV */
@@ -31,7 +87,6 @@ nav h1 {
 }
 
 nav p {
-    color: hsl(228, 12%, 44%);
     font-weight: 700;
     font-size: 0.9em;
     margin: 0;
@@ -39,7 +94,7 @@ nav p {
 
 hr.solid {
     margin-top: 20px;
-    border-top: 1px solid #bbb;
+    border-top: 1px solid #252B43;
   }
 
   /* Toggle Div */
@@ -68,193 +123,185 @@ hr.solid {
     margin: 4.5px;
     height: 62%;
     width: 15px;
-    background-color: white;
 }
 
 .ballToRight {
-    translate: 20px;
+    transform: translate(20px);
 }
-    /* CARDS LARGE */
+/* CARDS LARGE */
 
-    /* Cards Design */
+/* Cards Design */
 
-    .cardsLargeDiv {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+.cardsLargeDiv {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-    .cardsLarge {
-        border-radius: 5px;
-        margin: 12px auto;
-        width: 100%;
-        height: 200px;
-        background-color: hsl(227, 47%, 96%);
-        transition: all 0.2s ease-in-out;
-    }
+.cardsLarge {
+    border-radius: 5px;
+    margin: 5px;
+    width: 100%;
+    height: 200px;
+    transition: all 0.2s ease-in-out;
+}
 
-    .cardsLarge:hover {
-        transform: scale(1.15);
-    }
+.cardsLarge:hover {
+    transform: scale(1.15);
+}
 
-    #fbCard {
-        border-top: 4px solid hsl(203, 89%, 53%);
-    }
+#fbCard {
+    border-top: 4px solid hsl(203, 89%, 53%);
+}
 
-    #twCard {
-        border-top: 4px solid hsl(195, 100%, 50%);
-    }
+#twCard {
+    border-top: 4px solid hsl(195, 100%, 50%);
+}
 
-    /* Insta Card */
-    #inCard {
-        background-image: linear-gradient(to right, hsl(37, 97%, 70%),hsl(329, 70%, 58%));
-    }
+/* Insta Card */
+#inCard {
+    transition: all 0.2s ease-in-out;
+    background-image: linear-gradient(to right, hsl(37, 97%, 70%),hsl(329, 70%, 58%));
+}
 
-    #instaCardCover {
-        margin-top: 4px;
-        border-radius: 5px;
-        width: 100%;
-        height: 200px;
-        background-color: hsl(227, 47%, 96%);
-    }
+#instaCardCover {
+    transition: all 0.2s ease-in-out;
+    margin-top: 4px;
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+}
 
-    #youCard {
-        border-top: 4px solid hsl(348, 97%, 39%);
-    }
+#youCard {
+    border-top: 4px solid hsl(348, 97%, 39%);
+}
 
-    /* Cards Content */
-    
-    .iconHandleDiv {
-        padding-top: 20px;
-        display: flex;
-        justify-content: center;
-    }
+/* Cards Content */
 
-    .icon {
-        margin-top: 8px;
-        margin-right: 7.5px;
-        height: 20px;
-    }
+.iconHandleDiv {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
 
-    .handle {
-        font-size: 0.7em;
-    }
+.icon {
+    margin-top: 8px;
+    margin-right: 7.5px;
+    height: 20px;
+}
 
-    .followersDiv {
-        margin-top: 3px;
-        text-align: center;
-        justify-content: center;
-    }
+.handle {
+    font-size: 0.7em;
+}
 
-    .followersDiv h2 {
-        font-size: 3.5em;
-        font-weight: 700;
-        margin: 0;
-    }
+.followersDiv {
+    margin-top: 3px;
+    text-align: center;
+    justify-content: center;
+}
 
-    .followersDiv p {
-        margin: 0;
-        font-weight: 400;
-        font-size: 0.8em;
-        letter-spacing: 0.3em;
-    }
+.followersDiv h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    margin: 0;
+}
 
-    .updateDiv {
-        margin-top: 20px;;
-        display: flex;
-        justify-content: center;
-    }
+.followersDiv p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 0.8em;
+    letter-spacing: 0.3em;
+}
 
-    .upArrow {
-        margin-top: 6px;
-        margin-right: 5px;;
-        height: 4px;
-    }
+.updateDiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
 
-    .updateDiv p {
-        margin: 0;
-        color: hsl(163, 72%, 41%);
-        font-size: 0.75em;
-    }
+.upArrow {
+    margin-top: 6px;
+    margin-right: 5px;;
+    height: 4px;
+}
 
-    /* OVERVIEW */
+.updateDiv p {
+    margin: 0;
+    font-size: 0.75em;
+}
 
-    #overviewTitle {
-        margin-top: 25px;
-        font-size: 1.5em;
-        color: hsl(228, 12%, 44%);
-        font-weight: 700;
-        height: 30px;
-    }
+/* OVERVIEW */
 
-    .overviewCardsDiv {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+#overviewTitle {
+    margin-top: 25px;
+    font-size: 1.5em;
+    font-weight: 700;
+    height: 30px;
+}
 
-    .overviewCards {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-radius: 5px;
-        margin: 10px auto;
-        width: 100%;
-        height: 125px;
-        background-color: hsl(227, 47%, 96%);
-        transition: all 0.2s ease-in-out;
-    }
+.overviewCardsDiv {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-    .overviewCards:hover {
-        transform: scale(1.15);
-    }
+.overviewCards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 100%;
+    height: 125px;
+    transition: all 0.2s ease-in-out;
+}
 
-    .overviewLeft {
-        height: 70%;
-        margin-left: 20px;
-        margin-top: 5px;
-    }
+.overviewCards h2 {
+    margin-top: 26.560px;
+    font-size: 2em;
+}
 
-    .overviewLeft p {
-        margin: 0;
-    }
+.overviewCards:hover {
+    transform: scale(1.15);
+}
 
-    .overviewRight {
-        text-align: center;
-        margin-top: 30px;
-        margin-right: 20px;
-        height: 100%;
-    }
+.overviewLeft {
+    height: 70%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
 
-    .overviewRight p {
-        margin-top: 35px;
-        font-size: 0.75em;
-    }
+.overviewLeft p {
+    margin: 0;
+}
 
-    .positiveText {
-        color: hsl(163, 72%, 41%);
-    }
+.overviewRight {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 20px;
+    height: 100%;
+}
 
-    .negativeText {
-        color: hsl(356, 69%, 56%);
-    }
+.overviewRight p {
+    margin-top: 35px;
+    font-size: 0.75em;
+}
 
-    p.negativetext {
-       color: hsl(356, 69%, 56%)
-    }
+.overviewCards img {
+    margin-right: 0;
+    text-align: center;
+}
 
-    .overviewCards img {
-        margin-right: 0;
-        text-align: center;
-    }
-
-    img.overviewArrow {
-        padding: 3px;
-    }
+img.overviewArrow {
+    padding: 3px;
+}
 /* FOOTER */
 
 .attribution {
-margin-top: 50px;
+    color: white;
+    margin-top: 50px;
   font-size: 11px;
   text-align: center;
 }
@@ -267,18 +314,21 @@ margin-top: 50px;
 
 @media (min-width: 500px) {
 
-/* TOP SECTION */
-
-.toggleDiv {
-    position: relative;
-    top: -55px;
-    cursor: pointer;
-    display: flex;
-    justify-content: flex-end;
-}
-.toggleDiv p {
-    margin-right: 10px;;
-}
+    /* TOP SECTION */
+    
+    .toggleDiv {
+        position: relative;
+        top: -25px;
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .toggleDiv p {
+        margin-right: 10px;;
+    }
+    hr.solid {
+        display: none;
+      }
 
     /* FOLLOWERS SECTION */ 
     .cardsLarge {
@@ -286,7 +336,8 @@ margin-top: 50px;
     }
 
     .cardsLargeDiv {
-        margin-top: 30px;
+        text-align: center;
+        margin-top: 60px;
         display: flex;
         justify-content: space-evenly;
     }
