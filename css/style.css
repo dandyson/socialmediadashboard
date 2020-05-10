@@ -15,6 +15,10 @@ p {
     font-weight: 700;
 }
 
+h2 {
+    font-size: 2em;
+}
+
 /* NAV */
 
 nav {
@@ -142,7 +146,7 @@ hr.solid {
         justify-content: center;
     }
 
-    .followersDiv h1 {
+    .followersDiv h2 {
         font-size: 3.5em;
         font-weight: 700;
         margin: 0;

@@ -25,6 +25,12 @@ h1 {
     color: #fff;
 }
 
+h2 {
+    margin: 0;
+    font-size: 3.5em;
+    color: white;
+}
+
 /* NAV */
 
 nav {
@@ -169,7 +175,7 @@ hr.solid {
     }
 
     .updateDiv {
-        margin-top: 20px;;
+        margin-top: 20px;
         display: flex;
         justify-content: center;
     }
@@ -197,6 +203,7 @@ hr.solid {
     }
 
     .overviewCardsDiv {
+        margin-top: 20px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -212,6 +219,11 @@ hr.solid {
         height: 125px;
         background-color: #252B43;
         transition: all 0.2s ease-in-out;
+    }
+
+    .overviewCards h2 {
+        margin-top: 26.560px;
+        font-size: 2em;
     }
 
     .overviewCards:hover {
@@ -264,7 +276,7 @@ hr.solid {
 
 .attribution {
     color: white;
-margin-top: 50px;
+    margin-top: 50px;
   font-size: 11px;
   text-align: center;
 }
