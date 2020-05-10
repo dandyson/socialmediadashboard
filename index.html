@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <!--Custom Stylesheet-->
+  <link rel="stylesheet" href="css/style.css" id="stylesheet">
+  <!--Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+</head>
+
+<body>
+  <div class="followersContainer">
+    <!--Navigation-->
+    <nav>
+      <h1>Social Media Dashboard</h1>
+      <p>Total Followers: 23,004</p>
+      <hr class="solid">
+    </nav>
+
+    <!--Theme toggle div-->
+    <a id="toggleButton">
+      <div class="toggleDiv">
+        <p>Dark Mode</p>
+        <div id="toggleBackground">
+          <div id="toggleBall"></div>
+        </div>
+      </div>
+    </a>
+
+    <!--Cards Large-->
+    <div class="cardsLargeDiv">
+      <!-- Fb Card -->
+      <div class="cardsLarge" id="fbCard">
+        <div class="iconHandleDiv">
+          <img src="images/icon-facebook.svg" alt="fblogo" class="icon">
+          <p class="handle">@nathanf</p>
+        </div>
+        <div class="followersDiv">
+          <h1>1987</h1>
+          <p>
+            FOLLOWERS
+          </p>
+        </div>
+        <div class="updateDiv">
+          <img src="images/icon-up.svg" alt="uparrow" class="upArrow">
+          <p>12 Today</p>
+        </div>
+      </div>
+
+      <!-- Twitter Card -->
+      <div class="cardsLarge" id="twCard">
+        <div class="iconHandleDiv">
+          <img src="images/icon-twitter.svg" alt="fblogo" class="icon">
+          <p class="handle">@nathanf</p>
+        </div>
+        <div class="followersDiv">
+          <h1>1044</h1>
+          <p>
+            FOLLOWERS
+          </p>
+        </div>
+        <div class="updateDiv">
+          <img src="images/icon-up.svg" alt="uparrow" class="upArrow">
+          <p>99 Today</p>
+        </div>
+      </div>
+
+      <!-- Insta Card -->
+      <div class="cardsLarge" id="inCard">
+        <div id="instaCardCover">
+          <div class="iconHandleDiv">
+            <img src="images/icon-instagram.svg" alt="fblogo" class="icon">
+            <p class="handle">@nathanf</p>
+          </div>
+          <div class="followersDiv">
+            <h1>11k</h1>
+            <p>
+              FOLLOWERS
+            </p>
+          </div>
+          <div class="updateDiv">
+            <img src="images/icon-up.svg" alt="uparrow" class="upArrow">
+            <p>1099 Today</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- YouTube Card -->
+      <div class="cardsLarge" id="youCard">
+        <div class="iconHandleDiv">
+          <img src="images/icon-youtube.svg" alt="fblogo" class="icon">
+          <p class="handle">@nathanf</p>
+        </div>
+        <div class="followersDiv">
+          <h1>8239</h1>
+          <p>
+            SUBSCRIBERS
+          </p>
+        </div>
+        <div class="updateDiv">
+          <img src="images/icon-down.svg" alt="uparrow" class="upArrow">
+          <p class="negativetext">144 Today</p>
+        </div>
+      </div>
+    </div>
+
+    <!--OVERVIEW SECTION -->
+
+    <h1 id="overviewTitle">Overview - Today</h1>
+
+    <!--Facebook-->
+    <div class="overviewCardsDiv">
+      <div class="overviewCards">
+        <div class="overviewLeft">
+          <p>Page Views</p>
+          <h1>87</h1>
+        </div>
+        <div class="overviewRight">
+          <img src="images/icon-facebook.svg" alt="fblogo" class="icon">
+          <p class="positiveText"><span> <img src="images/icon-up.svg" alt="uparrow" class="overviewArrow"></span>3%</p>
+        </div>
+      </div>
+
+      <div class="overviewCards">
+        <div class="overviewLeft">
+          <p>Likes</p>
+          <h1>52</h1>
+        </div>
+        <div class="overviewRight">
+          <img src="images/icon-facebook.svg" alt="fblogo" class="icon">
+          <p class="negativeText"><span> <img src="images/icon-down.svg" alt="downarrow" class="overviewArrow"></span>2%
+          </p>
+        </div>
+      </div>
+
+      <!--Instagram-->
+      <div class="overviewCards">
+        <div class="overviewLeft">
+          <p>Likes</p>
+          <h1>5462</h1>
+        </div>
+        <div class="overviewRight">
+          <img src="images/icon-instagram.svg" alt="instalogo" class="icon">
+          <p class="positiveText"><span> <img src="images/icon-up.svg" alt="overviewArrow"
+                class="overviewArrow"></span>2257%</p>
+        </div>
+      </div>
+
+      <div class="overviewCards">
+        <div class="overviewLeft">
+          <p>Profile Views</p>
+          <h1>52k</h1>
+        </div>
+        <div class="overviewRight">
+          <img src="images/icon-instagram.svg" alt="instalogo" class="icon">
+          <p class="positiveText"><span> <img src="images/icon-up.svg" alt="overviewArrow"
+                class="overviewArrow"></span>1375%</p>
+        </div>
+      </div>
+
+      <div class="overviewCards">
+        <div class="overviewLeft">
+          <p>Retweets</p>
+          <h1>117</h1>
+        </div>
+        <div class="overviewRight">
+          <img src="images/icon-twitter.svg" alt="fblogo" class="icon">
+          <p class="positiveText"><span> <img src="images/icon-up.svg" alt="overviewArrow"
+                class="overviewArrow"></span>303%</p>
+        </div>
+      </div>
+
+      <div class="overviewCards">
+        <div class="overviewLeft">
+          <p>Likes</p>
+          <h1>507</h1>
+        </div>
+        <div class="overviewRight">
+          <img src="images/icon-twitter.svg" alt="fblogo" class="icon">
+          <p class="positiveText"><span> <img src="images/icon-up.svg" alt="overviewArrow"
+                class="overviewArrow"></span>553%</p>
+        </div>
+      </div>
+
+      <div class="overviewCards">
+        <div class="overviewLeft">
+          <p>Likes</p>
+          <h1>107</h1>
+        </div>
+        <div class="overviewRight">
+          <img src="images/icon-youtube.svg" alt="fblogo" class="icon">
+          <p class="negativeText"><span> <img src="images/icon-down.svg" alt="downArrow"
+                class="overviewArrow"></span>19%
+          </p>
+        </div>
+      </div>
+
+      <div class="overviewCards">
+        <div class="overviewLeft">
+          <p>Total Views</p>
+          <h1>1407</h1>
+        </div>
+        <div class="overviewRight">
+          <img src="images/icon-youtube.svg" alt="fblogo" class="icon">
+          <p class="negativeText"><span> <img src="images/icon-down.svg" alt="downArrow"
+                class="overviewArrow"></span>12%
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Dan Dyson</a>.
+  </div>
+
+  <!--Javascript file-->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
